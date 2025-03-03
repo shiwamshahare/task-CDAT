@@ -1,0 +1,44 @@
+/* Breadcrumb.css */
+.breadcrumb-container {
+   width: 100%;
+    padding: 16px;
+    background-color: white;
+}
+
+.breadcrumb-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.breadcrumb-separator {
+    margin: 0 8px;
+}
+
+.breadcrumb-link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px
+}
+
+.add-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border-radius: calc(infinity * 1px);
+    outline:none;
+    border:none;
+    gap: 12px;
+    color:white;
+    background-color: rgb(100, 89, 230);
+}

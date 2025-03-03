@@ -1,0 +1,75 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 239px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+border-right: 1px solid black;
+ 
+}
+
+.sidebar .logo{
+  width:100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px; 
+  border:1px solid black;
+  border-radius: 50%;
+
+}
+
+ .sidebar_buttons{
+  width: 100%;
+ padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sidebar .button-red{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ padding: 12px;
+  
+  border:1px solid black;
+ 
+  background-color: red;
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  gap:12px;
+  text-wrap: wrap;
+}
+.file{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.file-icon{
+  font-size: 2rem;
+  color:rgb(54, 107, 192)
+}
+
+.gt{
+  padding-right: 10px;
+}

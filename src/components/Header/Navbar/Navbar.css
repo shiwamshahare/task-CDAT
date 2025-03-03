@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 100;
+    position: fixed;
+    width: calc(100% - 240px);
+    height: 80px;
+    top: 0;
+    left: 0;
+    margin: 0px 240px;
+    padding: 20px ; 
+}
+.nav .yearMonth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    gap:12px
+}
+
+.nav_dropdown {
+    padding: 16px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.nav .languageUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    gap:80px
+}
+
+.language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    
+   
+}
+
+.user{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #a3d9da;
+}
